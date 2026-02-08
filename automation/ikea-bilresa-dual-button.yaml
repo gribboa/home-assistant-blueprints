@@ -5,7 +5,7 @@ blueprint:
   description: |
     # IKEA BILRESA Dual Button Remote Automation
 
-    ## Current Version 2.0.0
+    ## Current Version 2.0.1
 
     ## Features
 
@@ -25,6 +25,8 @@ blueprint:
 
     ## Changelog
 
+    ### 2.0.1
+      - Removed Matter integration filter for button event selector. This will allow users to use the Ikea BILRESA remote over 3rd party Matter integration.
     ### 2.0.0
       - Added support for selecting multiple entities for each button. Allowing to have multiple remotes triggering the same actions.
       - See [these upgrade notes](https://community.home-assistant.io/t/ikea-bilresa-dual-button-remote/965815/28?u=skaronator) for migrating existing automations using this blueprint.
@@ -65,7 +67,8 @@ blueprint:
             entity:
               multiple: true
               filter:
-                integration: matter
+                # Temporary remove due to: https://github.com/Skaronator/home-assistant-blueprints/issues/3
+                # integration: matter
                 domain: event
                 device_class: button
 
