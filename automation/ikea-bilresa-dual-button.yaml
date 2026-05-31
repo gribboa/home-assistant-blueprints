@@ -39,10 +39,9 @@ blueprint:
 
     ## Support and Feedback
 
-    * GitHub: [Skaronator/home-assistant-blueprints](https://github.com/Skaronator/home-assistant-blueprints)
+    * GitHub: [gribboa/home-assistant-blueprints](https://github.com/gribboa/home-assistant-blueprints)
     * Blueprint Exchange: [IKEA BILRESA Dual Button](https://community.home-assistant.io/t/ikea-bilresa-dual-button-remote/965815)
 
-    Thank you for using this blueprint! Your feedback and contributions are welcome. 💚
   domain: automation
   source_url: https://raw.githubusercontent.com/gribboa/home-assistant-blueprints/refs/heads/main/automation/ikea-bilresa-dual-button.yaml
   homeassistant:
