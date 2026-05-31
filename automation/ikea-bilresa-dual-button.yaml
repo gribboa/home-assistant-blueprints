@@ -23,7 +23,9 @@ blueprint:
     * Safety limit on maximum iterations for "while holding" actions to prevent infinite loops.
 
     ## Changelog
-
+    
+    ### 2.0.2
+      - Update event types to match my HA integration via Smarthings. Remove support for long press repeats and button-up.
     ### 2.0.1
       - Removed Matter integration filter for button event selector. This will allow users to use the Ikea BILRESA remote over 3rd party Matter integration.
     ### 2.0.0
