@@ -17,11 +17,6 @@ blueprint:
     * Double Press
     * Long Press
 
-    ### Configuration Options
-
-    * Configurable interval for "while holding" actions.
-    * Safety limit on maximum iterations for "while holding" actions to prevent infinite loops.
-
     ## Changelog
     
     ### 2.0.2
